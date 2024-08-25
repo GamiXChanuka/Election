@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Election</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 bg-white dark:bg-slate-800 text-gray-800 font-sans">
+
+    <div class="max-w-lg mx-auto mt-10 p-6 bg-white  shadow-lg rounded-lg">
+
+        <h1 class="text-6xl font-bold mb-6 text-center">Online Election</h1>
+
+        <div id="vote-counts">
+            <div class="mb-4 flex  ">
+
+                  <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://www.dailynews.lk/wp-content/uploads/2023/08/Anura-Kumara-gayan-abeykoon-lakehouse12-2.jpg" alt=""/>
+
+                <p class="text-lg font-medium w-full">Anura Kumara Disanayake: <span id="candidate1-votes" class="font-bold">0</span></p>
+
+                <button onclick="vote('Candidate 1')" class="mt-2 px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-600">Vote</button>
+            </div>
+            <div class="mb-4 flex ">
+                  <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://www.tobaccounmasked.com/images/thumb/1/18/Ranil_Wickremesinghe.jpg/400px-Ranil_Wickremesinghe.jpg" alt=""/>
+
+                <p class="text-lg font-medium w-full">Ranil Wikramasinghe: <span id="candidate2-votes" class="font-bold">0</span></p>
+                <button onclick="vote('Candidate 2')" class="mt-2 px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-600">Vote</button>
+            </div>
+            <div class="mb-4 flex ">
+                 <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://news.lk/media/k2/items/cache/e3d995a152e18bb86fa197fdc98b26b8_XL.jpg" alt=""/>
+
+                <p class="text-lg font-medium w-full">Namal Rajapaksha: <span id="candidate3-votes" class="font-bold">0</span></p>
+                <button onclick="vote('Candidate 3')" class="mt-2 px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-600">Vote</button>
+            </div>
+            <div class="mb-4 flex ">
+                  <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNFIy__uWMp574mI6z1ZN7NuNZLsZNg78LWA&s" alt=""/>
+
+                <p class="text-lg font-medium w-full">Dilith Jayaweera: <span id="candidate4-votes" class="font-bold">0</span></p>
+                <button onclick="vote('Candidate 4')" class="mt-2 px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-600">Vote</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
