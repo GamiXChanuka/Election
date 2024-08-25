@@ -1,4 +1,4 @@
-#🗳️ Online Election System
+# 🗳️ Online Election System
 This project is a full-stack web application designed to facilitate online elections. It allows users to vote for candidates in a simple, user-friendly interface, and dynamically displays the vote counts in real-time.
 
 Features ✨
